@@ -112,7 +112,18 @@
     }
 </script>
 
-<div class=" w-30 h-30">
-    <Chart {options} />
+    <div class="h-24">
 
-</div>
+        <!-- <Chart {options} /> -->
+    </div>
+ 
+
+
+<style lang="postcss">
+    .f {
+        @apply flex w-full h-full place-items-center place-content-center;
+        & > div {
+            @apply w-24 h-24;
+        }
+    }
+</style>
