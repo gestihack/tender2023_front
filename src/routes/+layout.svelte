@@ -29,8 +29,14 @@
                 >
                 <span class="bar" />
             </div>
-            <div class="bg-red font-extrabold text-red-700">
-                dsadas
+            <div class="nav-box">
+                <a
+                    class="nav-link"
+                    href="report"
+                    data-active={($page.route.id ?? "").indexOf("report") >= 0}
+                    >Report</a
+                >
+                <span class="bar" />
             </div>
         </div>
         {$page.route.id}
