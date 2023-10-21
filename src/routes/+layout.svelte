@@ -29,6 +29,9 @@
                 >
                 <span class="bar" />
             </div>
+            <div class="bg-red font-extrabold text-red-700">
+                dsadas
+            </div>
         </div>
         {$page.route.id}
         <slot />
@@ -42,7 +45,7 @@
             @apply h-px w-[84px] bg-black place-self-center place-content-end;
         }
         .nav-link {
-            @apply text-gray px-5 py-4 h-fit hover:text-black;
+            @apply text-pale-black font-bold px-5 py-4 h-fit hover:text-black;
 
             &[data-active="true"] + .bar {
                 @apply h-px w-[84px] bg-black place-self-center place-content-end;   
@@ -54,6 +57,6 @@
     }
 
     .topbar {
-        @apply h-fit border-b border-gray flex gap-x-10;
+        @apply h-fit border-b flex gap-x-10 bg-[#D4DBE6];
     }
 </style>
