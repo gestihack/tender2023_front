@@ -54,7 +54,7 @@
             @apply text-pale-black font-bold px-5 py-4 h-fit hover:text-black;
 
             &[data-active="true"] + .bar {
-                @apply h-px w-[84px] bg-black place-self-center place-content-end;   
+                @apply h-px w-[84px] bg-black place-self-center place-content-end;
             }
             &[data-active="true"] {
                 @apply text-black;
@@ -63,6 +63,6 @@
     }
 
     .topbar {
-        @apply h-fit border-b flex gap-x-10 bg-[#D4DBE6];
+        @apply h-fit border-b border-[#D4DBE6] flex gap-x-10 bg-[#E7EEF7];
     }
 </style>
