@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-screen h-screen;
+    div {
+        @apply w-full h-full;
+    }
+}
+
+#app {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+* {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}

@@ -1,5 +1,6 @@
 <script lang="ts">
-    import "./app.scss"
+    import "../app.scss"
 </script>
-
-<slot />
+<div class="w-full h-full" id="app">
+    <slot />
+</div>
