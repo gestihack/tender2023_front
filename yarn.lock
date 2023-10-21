@@ -190,6 +190,13 @@
   resolved "https://registry.npmjs.org/@types/cookie/-/cookie-0.5.3.tgz"
   integrity sha512-SLg07AS9z1Ab2LU+QxzU8RCmzsja80ywjf/t5oqw+4NSH20gIGlhLOrBDm1L3PBWzPa4+wkgFQVZAjE6Ioj2ug==
 
+"@types/echarts@^4.9.20":
+  version "4.9.20"
+  resolved "https://registry.yarnpkg.com/@types/echarts/-/echarts-4.9.20.tgz#90260d19cd2c7d20b7444e0da38dc2db1e1ba8f1"
+  integrity sha512-7TfJfcIXP/m6WLU1QIYFLmRMQhRv1B2RbZi0wYKFlkjgMOcX6cVU5bTdZfPz1KGVadCzfsj/YvhyNtTzQRHgaQ==
+  dependencies:
+    "@types/zrender" "*"
+
 "@types/estree@*", "@types/estree@^1.0.0", "@types/estree@^1.0.1":
   version "1.0.3"
   resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.3.tgz"
@@ -216,6 +223,11 @@
   version "7.5.4"
   resolved "https://registry.npmjs.org/@types/semver/-/semver-7.5.4.tgz"
   integrity sha512-MMzuxN3GdFwskAnb6fz0orFvhfqi752yjaXylr0Rp4oDg5H0Zn1IuyRhDVvYOwAXoJirx2xuS16I3WjxnAIHiQ==
+
+"@types/zrender@*":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@types/zrender/-/zrender-4.0.5.tgz#31c6f7682d7c4b8ccc7cb63ddaad734211c87acf"
+  integrity sha512-1YNFY8IqPcFfkpMyJVxdKE9+DADlrkRcaspaWxIUurVEfqv0NUMbMixUoj10HX3AWOM+xc+o9RaPuVS2Y6wc7Q==
 
 "@typescript-eslint/eslint-plugin@^6.0.0":
   version "6.8.0"
@@ -581,6 +593,14 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+echarts@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.4.3.tgz#f5522ef24419164903eedcfd2b506c6fc91fb20c"
+  integrity sha512-mYKxLxhzy6zyTi/FaEbJMOZU1ULGEQHaeIeuMR5L+JnJTpz+YR03mnnpBhbR4+UYJAgiXgpyTVLffPAjOTLkZA==
+  dependencies:
+    tslib "2.3.0"
+    zrender "5.4.4"
 
 electron-to-chromium@^1.4.535:
   version "1.4.561"
@@ -1604,6 +1624,11 @@ svelte-check@^3.4.3:
     svelte-preprocess "^5.0.4"
     typescript "^5.0.3"
 
+svelte-echarts@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/svelte-echarts/-/svelte-echarts-0.0.5.tgz#6e6a24c9af5d06fdf0b2b8fab7811632ea9b35c5"
+  integrity sha512-CPrl2t3M6LROkEetKOtcdoaUyHrc80W47EZGoj4bDWdVBDqiGRkqwjyYW7+KOkrpzJRJorHEgQidsBQ3d765uQ==
+
 "svelte-eslint-parser@>=0.33.0 <1.0.0":
   version "0.33.1"
   resolved "https://registry.npmjs.org/svelte-eslint-parser/-/svelte-eslint-parser-0.33.1.tgz"
@@ -1727,6 +1752,11 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+
 tslib@^2.4.1:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
@@ -1828,3 +1858,10 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zrender@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.4.4.tgz#8854f1d95ecc82cf8912f5a11f86657cb8c9e261"
+  integrity sha512-0VxCNJ7AGOMCWeHVyTrGzUgrK4asT4ml9PEkeGirAkKNYXYzoPJCLvmyfdoOXcjTHPs10OZVMfD1Rwg16AZyYw==
+  dependencies:
+    tslib "2.3.0"
