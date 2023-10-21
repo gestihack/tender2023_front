@@ -4,7 +4,7 @@
 
 body {
     @apply w-screen h-screen;
-    div {
+    & > div {
         @apply w-full h-full;
     }
 }

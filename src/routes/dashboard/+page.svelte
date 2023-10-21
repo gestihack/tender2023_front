@@ -112,7 +112,7 @@
     }
 </script>
 
-<div class="w-full h-full">
+<div class=" w-30 h-30">
     <Chart {options} />
 
 </div>
