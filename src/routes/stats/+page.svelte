@@ -62,7 +62,7 @@
 <div class="w-full h-full">
     <div class=" charts">
         <div><Chart {options}/></div>
-        <div><Chart {options2}/></div>
+        <!-- <div><Chart {options2}/></div> -->
        
     </div>
 </div>

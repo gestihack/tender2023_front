@@ -12,6 +12,7 @@ export default {
                 "pale-black": "#A7A7A7",
                 "slate": "#D4DBE6",
                 red: '#C92723',
+                reddy: '#DB2B21'
             },
         },
     },
