@@ -39,7 +39,7 @@
                 <span class="bar" />
             </div>
         </div>
-        {$page.route.id}
+        
         <slot />
     </div>
 </div>
