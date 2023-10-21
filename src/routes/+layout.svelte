@@ -4,7 +4,7 @@
 </script>
 
 <div
-    class="w-full h-full  bg-[#E7EEF7]"
+    class="w-full h-full bg-[#E7EEF7]"
     id="app"
 >
     <div class="flex flex-col">
