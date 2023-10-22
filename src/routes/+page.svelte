@@ -1,5 +1,5 @@
 <script>
     import { goto } from '$app/navigation';
 
-    goto("/dashboard")
+    goto("/recent")
 </script>

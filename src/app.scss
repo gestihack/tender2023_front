@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+body {overflow-x: hidden}
+
 h2 {
     @apply text-[26px]
 }
@@ -22,4 +24,21 @@ h5 {
 
 body {
     @apply w-screen h-screen;
+}
+
+.paginator-controls > button {
+    @apply bg-gray border-none text-black;
+    &:first-child {
+        @apply rounded-l-xl
+    }
+    &:last-child {
+        @apply rounded-r-xl
+    }
+}
+.paginator-select {
+    @apply border-2 border-pale-black  text-black ;
+}
+
+a {
+    @apply text-[#0096c7] outline-1 outline-cyan-700;
 }

@@ -1,10 +1,23 @@
+
+// @ts-check
+import { join } from 'path';
+import { skeleton } from '@skeletonlabs/tw-plugin';
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./src/**/*.{html,js,svelte,ts}"],
+    content: [
+      "./src/**/*.{html,js,svelte,ts}",
+      join(require.resolve(
+        '@skeletonlabs/skeleton'),
+        '../**/*.{html,js,svelte,ts}'
+      )
+  ],
     theme: {
         extend: {
             fontFamily: {
               sans: 'Proxima Nova',
+              mono: 'JetBrains Mono',
             },
             colors: {
                 gray: "#D4DBE6",
@@ -16,5 +29,9 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [skeleton({
+      themes: {
+        preset: ['skeleton']
+      }
+    })],
 }
